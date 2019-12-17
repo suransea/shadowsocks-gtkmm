@@ -8,7 +8,7 @@
 #include "application.h"
 
 int main(int argc, char **argv) {
-    ssr::util::register_logger();
-    ssr::Application app;
+    ss::util::register_logger();
+    ss::Application app;
     return app.run(argc, argv);
 }

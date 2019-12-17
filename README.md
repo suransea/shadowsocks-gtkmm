@@ -1,3 +1,3 @@
-## ShadowsocksR Gtkmm
+# Shadowsocks Gtkmm
 
-shadowcocksr for linux
+shadowcocks for linux

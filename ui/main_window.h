@@ -2,13 +2,13 @@
 // Created by sea on 1/20/19.
 //
 
-#ifndef SHADOWSOCKSR_MAIN_WINDOW_H
-#define SHADOWSOCKSR_MAIN_WINDOW_H
+#ifndef SHADOWSOCKS_MAIN_WINDOW_H
+#define SHADOWSOCKS_MAIN_WINDOW_H
 
 #include <gtkmm/window.h>
 #include <gtkmm/builder.h>
 
-namespace ssr {
+namespace ss {
 
 class MainWindow : public Gtk::Window {
  public:
@@ -16,9 +16,9 @@ class MainWindow : public Gtk::Window {
 
   MainWindow(const MainWindow &) = delete;
 
-  ~MainWindow() override;
+  ~MainWindow() = default;
 };
 
-} //namespace ssr
+} //namespace ss
 
-#endif //SHADOWSOCKSR_MAIN_WINDOW_H
+#endif //SHADOWSOCKS_MAIN_WINDOW_H

@@ -2,12 +2,12 @@
 // Created by sea on 1/20/19.
 //
 
-#ifndef SHADOWSOCKSR_UI_UTIL_H
-#define SHADOWSOCKSR_UI_UTIL_H
+#ifndef SHADOWSOCKS_UI_UTIL_H
+#define SHADOWSOCKS_UI_UTIL_H
 
 #include <gtkmm/messagedialog.h>
 
-namespace ssr {
+namespace ss {
 
 namespace util {
 
@@ -17,6 +17,6 @@ void dialog(Gtk::Window &parent, const char *content, Gtk::MessageType type = Gt
 
 } //namespace util
 
-} //namespace ssr
+} //namespace ss
 
-#endif //SHADOWSOCKSR_UI_UTIL_H
+#endif //SHADOWSOCKS_UI_UTIL_H

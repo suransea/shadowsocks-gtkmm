@@ -6,10 +6,10 @@
 #include <libnotifymm.h>
 #include "ui_util.h"
 
-namespace ssr {
+namespace ss {
 
 void util::notify(const char *title, const char *content, const char *icon) {
-    Notify::init("ShadowsocksR");
+    Notify::init("Shadowsocks");
     Notify::Notification notification(title, content, icon);
     notification.show();
 }
@@ -21,4 +21,4 @@ void util::dialog(Gtk::Window &parent,
     dialog.run();
 }
 
-} //namespace ssr
+} //namespace ss

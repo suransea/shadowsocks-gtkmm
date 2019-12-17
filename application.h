@@ -2,12 +2,12 @@
 // Created by sea on 1/20/19.
 //
 
-#ifndef SHADOWSOCKSR_APPLICATION_H
-#define SHADOWSOCKSR_APPLICATION_H
+#ifndef SHADOWSOCKS_APPLICATION_H
+#define SHADOWSOCKS_APPLICATION_H
 
 #include <gtkmm/application.h>
 
-namespace ssr {
+namespace ss {
 
 class Application : public Gtk::Application {
  public:
@@ -22,6 +22,6 @@ class Application : public Gtk::Application {
 
 };
 
-} //namespace ssr
+} //namespace ss
 
-#endif //SHADOWSOCKSR_APPLICATION_H
+#endif //SHADOWSOCKS_APPLICATION_H

@@ -9,7 +9,7 @@
 #include "main_window.h"
 #include "../util/ui_util.h"
 
-namespace ssr {
+namespace ss {
 
 MainWindow::MainWindow(BaseObjectType *object, const Glib::RefPtr<Gtk::Builder> &builder)
     : Gtk::Window(object) {
@@ -18,8 +18,4 @@ MainWindow::MainWindow(BaseObjectType *object, const Glib::RefPtr<Gtk::Builder> 
     auto &&iter = model->append();
 }
 
-MainWindow::~MainWindow() {
-
-}
-
-} //namespace ssr
+} //namespace ss
